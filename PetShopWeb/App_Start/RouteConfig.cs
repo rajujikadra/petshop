@@ -13,6 +13,16 @@ namespace PetShopWeb
             var settings = new FriendlyUrlSettings();
             settings.AutoRedirectMode = RedirectMode.Permanent;
             routes.EnableFriendlyUrls(settings);
+            try
+            {
+                //Client Side Route
+                routes.MapPageRoute("home", "home", "~/Default.aspx");
+                routes.MapPageRoute("error", "404-PageNotFound", "~/Error.aspx");
+            }
+            catch (Exception ex)
+            {
+                throw ex.InnerException;
+            }
         }
     }
 }
