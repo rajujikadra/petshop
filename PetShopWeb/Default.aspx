@@ -97,13 +97,19 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-                <img class="d-block img-fluid" src="../assets/img/demo/car1.png" alt="...">
+                <img class="d-block img-fluid" src="../assets/bannerfinal/banner1.png" alt="..." />
             </div>
             <div class="carousel-item">
-                <img class="d-block img-fluid" src="../assets/img/demo/car2.jpg" alt="...">
+                <img class="d-block img-fluid" src="../assets/bannerfinal/banner2.jpg" alt="..." />
             </div>
             <div class="carousel-item">
-                <img class="d-block img-fluid" src="../assets/img/demo/paris.jpg" alt="...">
+                <img class="d-block img-fluid" src="../assets/bannerfinal/Banner3.jpg" alt="..." />
+            </div>
+            <div class="carousel-item">
+                <img class="d-block img-fluid" src="../assets/bannerfinal/PAWDSTORE.jpg" alt="..." />
+            </div>
+            <div class="carousel-item">
+                <img class="d-block img-fluid" src="../assets/bannerfinal/banner4.jpg" alt="..." />
             </div>
         </div>
         <!-- Controls -->
