@@ -18,6 +18,8 @@ namespace PetShopWeb
                 //Client Side Route
                 routes.MapPageRoute("home", "home", "~/Default.aspx");
                 routes.MapPageRoute("error", "404-PageNotFound", "~/Error.aspx");
+                routes.MapPageRoute("dashboard", "dashboard", "~/Admin/Dashboard.aspx");
+                routes.MapPageRoute("category", "category", "~/Admin/Category.aspx");
             }
             catch (Exception ex)
             {

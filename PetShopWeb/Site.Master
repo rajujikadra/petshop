@@ -8,16 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#333">
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %> - Pet Shop</title>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
     <meta name="description" content="Material Style Theme">
     <link rel="shortcut icon" href="../assets/img/favicon.png?v=3">
-   
+
     <link rel="stylesheet" href="../assets/css/preload.min.css">
     <link rel="stylesheet" href="../assets/css/plugins.min.css">
     <link rel="stylesheet" href="../assets/css/style.light-blue-500.min.css">
+    <link href="../assets/css/HoldOn.css" rel="stylesheet" />
 </head>
 <body>
     <form runat="server">
@@ -1122,6 +1123,7 @@
         <script src="../assets/js/plugins.min.js"></script>
         <script src="../assets/js/app.min.js"></script>
         <script src="../assets/js/index.js"></script>
+        <script src="../assets/js/HoldOn.js"></script>
     </form>
 </body>
 </html>

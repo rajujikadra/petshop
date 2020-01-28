@@ -164,6 +164,54 @@
     <Content Include="Account\Confirm.aspx" />
     <Content Include="Account\Forgot.aspx" />
     <Content Include="Account\Lockout.aspx" />
+    <Content Include="Admin\assets\css\bootstrap-select.css" />
+    <Content Include="Admin\assets\css\bootstrap.css" />
+    <Content Include="Admin\assets\css\bootstrap.min.css" />
+    <Content Include="Admin\assets\css\font-awesome.min.css" />
+    <Content Include="Admin\assets\css\lib\datatable\buttons.bootstrap.min.css" />
+    <Content Include="Admin\assets\css\lib\datatable\buttons.dataTables.min.css" />
+    <Content Include="Admin\assets\css\lib\datatable\dataTables.bootstrap.min.css" />
+    <Content Include="Admin\assets\css\style.css" />
+    <Content Include="Admin\assets\css\variables.css" />
+    <Content Include="Admin\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Admin\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Admin\assets\fonts\index.html" />
+    <Content Include="Admin\assets\fonts\themify.svg" />
+    <Content Include="Admin\assets\js\index.html" />
+    <Content Include="Admin\assets\js\lib\data-table\buttons.bootstrap.min.js" />
+    <Content Include="Admin\assets\js\lib\data-table\buttons.colVis.min.js" />
+    <Content Include="Admin\assets\js\lib\data-table\buttons.flash.min.js" />
+    <Content Include="Admin\assets\js\lib\data-table\buttons.html5.min.js" />
+    <Content Include="Admin\assets\js\lib\data-table\buttons.print.min.js" />
+    <Content Include="Admin\assets\js\lib\data-table\datatables-init.js" />
+    <Content Include="Admin\assets\js\lib\data-table\dataTables.bootstrap.min.js" />
+    <Content Include="Admin\assets\js\lib\data-table\dataTables.buttons.min.js" />
+    <Content Include="Admin\assets\js\lib\data-table\datatables.min.js" />
+    <Content Include="Admin\assets\js\lib\data-table\jquery-1.12.4.js" />
+    <Content Include="Admin\assets\js\lib\data-table\jquery.dataTables.min.js" />
+    <Content Include="Admin\assets\js\lib\data-table\jszip.min.js" />
+    <Content Include="Admin\assets\js\lib\data-table\pdfmake.min.js" />
+    <Content Include="Admin\assets\js\lib\data-table\vfs_fonts.js" />
+    <Content Include="Admin\assets\js\main.js" />
+    <Content Include="Admin\assets\js\plugins.js" />
+    <Content Include="Admin\assets\js\popper.min.js" />
+    <Content Include="Admin\assets\js\vendor\index.html" />
+    <Content Include="Admin\assets\js\vendor\jquery-1.11.3.min.js" />
+    <Content Include="Admin\assets\js\vendor\jquery-2.1.4.min.js" />
+    <Content Include="Admin\assets\js\vendor\modernizr-2.8.3.min.js" />
+    <Content Include="Admin\assets\scss\bootstrap\bootstrap-grid.css" />
+    <Content Include="Admin\assets\scss\bootstrap\bootstrap-reboot.css" />
+    <Content Include="Admin\assets\scss\bootstrap\bootstrap.css" />
+    <Content Include="Admin\assets\scss\socials.css" />
+    <Content Include="Admin\assets\scss\style.css" />
+    <Content Include="Admin\assets\scss\variables.css" />
+    <Content Include="Admin\assets\scss\widgets.css" />
+    <Content Include="Admin\Category.aspx" />
+    <Content Include="Admin\Dashboard.aspx" />
+    <Content Include="assets\css\HoldOn.css" />
+    <Content Include="assets\img\logo.png" />
+    <Content Include="assets\img\logo2.png" />
+    <Content Include="assets\js\HoldOn.js" />
     <Content Include="Login.aspx" />
     <Content Include="Account\Manage.aspx" />
     <Content Include="Account\ManageLogins.aspx" />
@@ -426,6 +474,116 @@
     <Content Include="assets\fonts\Material-Design-Iconic-Font.ttf" />
     <Content Include="assets\fonts\Material-Design-Iconic-Font.woff" />
     <Content Include="assets\fonts\Material-Design-Iconic-Font.woff2" />
+    <Content Include="Admin\assets\css\bootstrap.css.map" />
+    <Content Include="Admin\assets\css\bootstrap.min.css.map" />
+    <Content Include="Admin\assets\css\style.css.map" />
+    <Content Include="Admin\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Admin\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Admin\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Admin\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Admin\assets\fonts\FontAwesome.otf" />
+    <Content Include="Admin\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Admin\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Admin\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Admin\assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Admin\assets\fonts\themify.eot" />
+    <Content Include="Admin\assets\fonts\themify.ttf" />
+    <Content Include="Admin\assets\fonts\themify.woff" />
+    <Content Include="Admin\assets\scss\bootstrap\bootstrap-grid.css.map" />
+    <Content Include="Admin\assets\scss\bootstrap\bootstrap-grid.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\bootstrap-reboot.css.map" />
+    <Content Include="Admin\assets\scss\bootstrap\bootstrap-reboot.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\bootstrap.css.map" />
+    <Content Include="Admin\assets\scss\bootstrap\bootstrap.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_alert.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_badge.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_box-shadow.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_breakpoints.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_buttons.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_caret.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_float.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_forms.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_gradients.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_grid.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_hover.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_image.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_list-group.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_lists.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_navbar-align.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_pagination.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_resize.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_screen-reader.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_size.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_table-row.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_text-hide.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_text-truncate.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_transition.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\mixins\_visibility.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\utilities\_align.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\utilities\_background.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\utilities\_borders.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\utilities\_clearfix.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\utilities\_display.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\utilities\_embed.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\utilities\_flex.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\utilities\_float.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\utilities\_position.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\utilities\_screenreaders.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\utilities\_sizing.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\utilities\_spacing.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\utilities\_text.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\utilities\_visibility.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_alert.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_badge.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_breadcrumb.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_button-group.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_buttons.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_card.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_carousel.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_close.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_code.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_custom-forms.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_dropdown.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_forms.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_functions.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_grid.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_images.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_input-group.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_jumbotron.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_list-group.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_media.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_mixins.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_modal.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_nav.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_navbar.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_pagination.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_popover.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_print.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_progress.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_reboot.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_root.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_tables.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_tooltip.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_transitions.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_type.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_utilities.scss" />
+    <Content Include="Admin\assets\scss\bootstrap\_variables.scss" />
+    <Content Include="Admin\assets\scss\socials.css.map" />
+    <Content Include="Admin\assets\scss\socials.scss" />
+    <Content Include="Admin\assets\scss\style.css.map" />
+    <Content Include="Admin\assets\scss\style.scss" />
+    <Content Include="Admin\assets\scss\variables.scss" />
+    <Content Include="Admin\assets\scss\_gauge.scss" />
+    <Content Include="Admin\assets\scss\_switches.scss" />
+    <Content Include="Admin\assets\scss\_widgets.scss" />
+    <Content Include="Admin\Admin.Master" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -489,6 +647,27 @@
     </Compile>
     <Compile Include="Account\Lockout.aspx.designer.cs">
       <DependentUpon>Lockout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Category.aspx.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Category.aspx.designer.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
